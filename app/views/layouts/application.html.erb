@@ -3,7 +3,9 @@
 <head>
   <title>Teste</title>
   <%= stylesheet_link_tag :all %>
-  <%= javascript_include_tag :defaults %>
+  <%= javascript_include_tag 'vendor/jquery-1.5.2.min.js', 'vendor/jquery.validate_1.8.0.min.js' %>
+  <%= javascript_include_tag 'jquery.validate_regex', 'green_light' %>
+  <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tag %>
 </head>
 <body>
